@@ -1,0 +1,30 @@
+ALGORITHM chekpoint1
+
+VAR
+    str:STRING
+    NB_w,NB,v,NB,c:INTEGER:=0
+    I:INTEGER
+
+
+BEGIN
+    write("write a sentance")
+    read(str)
+    WHILE (str(i)<>.) DO
+        NB_c=NB_c+1
+
+         IF (str(i)=("a","i","e","u","y","o")) THEN
+            NB_v=NB_v+1
+            END_IF 
+
+         IF (str(i)=' ') THEN
+                NB_w=NB_w+1
+                end_IF
+             END_IF
+
+
+    END_WHILE
+    write(NB_w)
+    write(NB_v)
+    write(NB_c)
+
+END
